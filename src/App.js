@@ -51,9 +51,6 @@ const questions = [
 ]
 
 
-
-
-
 function App() {
 
   const [currentQuestion, setQuestion] = useState(0);
@@ -86,7 +83,7 @@ function App() {
 
   return (
 
-    <div className="flex justify-center items-center h-screen">
+    <div className="flex justify-center items-center h-screen" id='appBackground'>
     <div className='w-full max-w-lg bg-white p-8 rounded shadow-lg'>
         <div className='p-2 border text-center font-bold mb-2 text-xl '>
           Quiz App
